@@ -1,0 +1,177 @@
+html,
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+li,
+ol,
+dl,
+dt,
+dd,
+div,
+span,
+a,
+b,
+i,
+strong,
+em,
+img,
+form,
+input,
+textarea,
+table,
+th,
+td,
+section {
+  padding: 0;
+  margin: 0;
+}
+
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 100%;
+  line-height: 100%;
+  font-weight: normal;
+}
+
+li {
+  list-style: none;
+}
+
+
+.block{
+  display: block;
+}
+.none{
+  display: none;
+}
+.flex{
+  display: flex;
+}
+.main_zdy{
+  flex-direction:row;             /* 主轴，从左到右*/
+}
+.main_ydz{
+  flex-direction:row-reverse;     /* 主轴，从右到左*/
+}
+.side_sdx{
+  flex-direction:column;          /* 侧轴，从上到下*/
+}
+.side_xds{
+  flex-direction:column-reverse;  /* 侧轴，从下到上*/
+}
+.mainAlign_start{
+  justify-content:flex-start;      /* 主轴对齐方式，起点对齐*/
+}
+.mainAlign_end{
+  justify-content:flex-end;        /* 主轴对齐方式，结束点对齐*/
+}
+.mainAlign_center{
+  justify-content:center;          /* 主轴对齐方式，在主轴中居中对齐*/
+}
+.mainAlign_between{
+  justify-content:space-between;   /* 主轴对齐方式，两端对齐*/
+}
+.mainAlign_around{
+  justify-content:space-around;    /* 主轴对齐方式，每个子元素之间的距离相等*/
+}
+.sideAlign_stretch{
+  align-items:stretch;            /* 侧轴对齐方式，填充整个容器(默认值)*/
+}
+.sideAlign_start{
+  align-items:flex-start;         /* 侧轴对齐方式，侧轴的起点对齐*/
+}
+.sideAlign_end{
+  align-items:flex-end;           /* 侧轴对齐方式，侧轴的终点对齐*/
+}
+.sideAlign_center{
+  align-items:center;             /* 侧轴对齐方式，在侧轴中居中对齐*/
+}
+.sideAlign_baseline{
+  align-items:baseline;           /* 侧轴对齐方式，以子元素的第一行文字对齐*/
+}
+.text-center{
+  text-align: center;
+}
+.text-left{
+  text-align: left;
+}
+.text-right{
+  text-align: right;
+}
+
+.red{
+	color: yellow;
+}
+/* 公共样式 */
+.fl {
+  float: left !important;
+}
+
+.fr {
+  float: right !important;
+}
+/*清除浮动*/
+.clearfix:after,
+.cl:after {
+  display: block;
+  clear: both;
+  content: '';
+}
+
+.clearfix,
+.cl {
+  zoom: 1;
+}
+
+.mar_l20 {
+  margin-left: 20px !important;
+}
+.mar_r20 {
+  margin-right: 20px !important;
+}
+.mar_t20 {
+  margin-top: 20px !important;
+}
+.mar_t10 {
+  margin-top: 10px !important;
+}
+/* 修改 iview 的默认样式 */
+.ivu-input {
+  height: 30px !important;
+}
+.search_box .ivu-btn-primary {
+  color: #fff !important;
+  background: rgba(82, 176, 149, 1) !important;
+  border: none !important;
+}
+.lender_box .ivu-btn>.ivu-icon {
+  line-height: 0px
+}
+.ivu-page {
+  margin-top: 10px
+}
+.ivu-col {
+  line-height: 2
+}
+.noborder-form .ivu-form-item-error .ivu-input {
+  border: 1px solid transparent !important;
+}
+
+.noborder-form .ivu-input {
+  border: 1px solid transparent !important;
+}
+.noborder-form .ivu-form-item {
+  margin-bottom: 36px
+}
